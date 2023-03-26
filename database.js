@@ -12,5 +12,5 @@ async function dbConnect() {
   db = result.db("database");
   return db.collection("saleBills");
 }
-
+var a = 4;
 module.exports = dbConnect;
